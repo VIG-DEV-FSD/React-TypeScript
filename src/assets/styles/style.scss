@@ -1,0 +1,18 @@
+@import './global';
+@import './fonts';
+@import './vars';
+
+.px1 {
+  padding: 0 1rem;
+}
+
+.todo{
+  display: flex;
+  justify-content: space-between;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+@import './media';
